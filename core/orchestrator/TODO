@@ -1,0 +1,16 @@
+
+Todo:
+   ☐ Create runPipeline(task: string)
+   ☐ Call steps in order:
+      ☐ buildContext()
+      ☐ generateSpec()
+      ☐ generateImplementation()
+      ☐ applyPatch()
+      ☐ runVerification()
+   ☐ Save artifacts after each step
+   ☐ Add logging between steps
+   ☐ Handle failures:
+      ☐ stop pipeline on critical error
+      ☐ Return final result
+
+      

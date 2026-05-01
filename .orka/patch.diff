@@ -1,0 +1,19 @@
+--- a/core/orchestrator/index.ts
++++ b/core/orchestrator/index.ts
+@@ -1,5 +1,6 @@
+ import express from 'express';
+ 
+ const router = express.Router();
++ 
+ router.get('/hello', (req, res) => {
+     res.status(200).send('Hello, World!');
+ });
+ 
+@@ -7,3 +8,8 @@
+ 
+ export default router;
+ 
++router.post('/hello', (req, res) => {
++    res.status(405).send('Method Not Allowed');
++});
++

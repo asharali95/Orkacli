@@ -1,0 +1,9 @@
+{
+  "models": {
+    "spec": "gpt-4",
+    "implementation": "gpt-4",
+    "review": "codex",
+    "fix": "cursor"
+  },
+  "maxFixIterations": 2
+}

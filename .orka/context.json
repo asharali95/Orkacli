@@ -1,0 +1,53 @@
+{
+  "projectType": "node",
+  "totalFiles": 21,
+  "files": [
+    "README.md",
+    "cli/TODO",
+    "cli/index.ts",
+    "context/builder/index.ts",
+    "context/scanner/TODO",
+    "context/scanner/index.ts",
+    "core/diffViewer/index.ts",
+    "core/logger/TODO",
+    "core/logger/index.ts",
+    "core/orchestrator/TODO",
+    "core/orchestrator/index.ts",
+    "implementation/agent/index.ts",
+    "llm/client/index.ts",
+    "package.json",
+    "patch/applier/index.ts",
+    "patch/parser/index.ts",
+    "pnpm-lock.yaml",
+    "spec/generator/index.ts",
+    "todo-instruction.md",
+    "tsconfig.json",
+    "verification/index.ts"
+  ],
+  "entryPoints": [
+    "cli/index.ts",
+    "context/builder/index.ts",
+    "context/scanner/index.ts",
+    "core/diffViewer/index.ts",
+    "core/logger/index.ts",
+    "core/orchestrator/index.ts",
+    "implementation/agent/index.ts",
+    "llm/client/index.ts",
+    "patch/applier/index.ts",
+    "patch/parser/index.ts"
+  ],
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "diff": "^9.0.0",
+    "dotenv": "^17.4.2",
+    "fs-extra": "^11.3.4",
+    "openai": "^6.35.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node cli/index.ts"
+  }
+}

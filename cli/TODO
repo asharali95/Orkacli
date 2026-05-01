@@ -1,0 +1,16 @@
+
+Todo:
+  ☐ Setup CLI using commander
+  ☐ Add command: orka init
+   ☐ Create .orka/ directory
+   ☐ Generate default config file
+  ☐ Add command:
+    ☐ orka implement "task"
+  ☐ Parse task input string
+  ☐ Call Orchestrator
+  ☐ Add basic logging (start, progress, end)
+  ☐ Handle errors gracefully (try/catch)
+  ☐ Print final result (success/failure)
+
+
+

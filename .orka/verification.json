@@ -1,0 +1,11 @@
+{
+  "build": {
+    "success": false,
+    "output": "Debugger listening on ws://127.0.0.1:54890/c1d64178-c24e-429d-993a-4fa90c1fb98f\nFor help, see: https://nodejs.org/en/docs/inspector\nDebugger attached.\nDebugger listening on ws://127.0.0.1:54892/22d74c76-b270-484b-a146-a00fc3a3b7cb\nFor help, see: https://nodejs.org/en/docs/inspector\nDebugger attached.\nWaiting for the debugger to disconnect...\nWaiting for the debugger to disconnect...\n"
+  },
+  "test": {
+    "success": false,
+    "output": "Debugger listening on ws://127.0.0.1:54894/6fde104c-04cd-475a-a3d7-f2cc8157d234\nFor help, see: https://nodejs.org/en/docs/inspector\nDebugger attached.\nWaiting for the debugger to disconnect...\n"
+  },
+  "success": false
+}

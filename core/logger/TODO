@@ -1,0 +1,11 @@
+
+Todo:
+    ☐ Create logger utility :
+        ☐  info()
+        ☐  error()
+        ☐  success()
+    ☐ print to console
+    ☐ Write logs to logs.txt
+    ☐ Add timestamps
+
+    
